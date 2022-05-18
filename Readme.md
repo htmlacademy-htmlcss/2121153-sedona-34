@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Юлия Масарновская](https://up.htmlacademy.ru/htmlcss/34/user/2121153).
-* Наставник: [Дмитрий Вашкевич] (https://htmlacademy.ru/profile/id116959). 
+* Наставник: [Дмитрий Вашкевич](https://up.htmlacademy.ru/htmlcss/34/user/116959). 
 
 ---
 
