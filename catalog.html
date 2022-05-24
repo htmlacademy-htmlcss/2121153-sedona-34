@@ -48,9 +48,24 @@
             </header>
             <section class="catalog-hotels">
                 <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-                <form action="https://echo.htmlacademy.ru/" method="get">
+                <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
                     <fieldset class="catalog-filter-group">
                         <legend class="catalog-filter-title">Инфраструктура</legend>
+                        <ul class="catalog-filter-list">
+                            <li class="catalog-filter-item">
+                                <label class="control">
+                                <input checked class="control-input" type="checkbox" name="pool">Бассейн</label>
+                            </li>
+                            <li class="catalog-filter-item">
+                                <label class="control">
+                                <input checked class="control-input" type="checkbox" name="parking">Парковка</label>
+                            </li>
+                            <li class="catalog-filter-item">
+                                <label class="control">
+                                <input class="control-input" type="checkbox" name="wifi">Wi-Fi</label>
+                             </li>
+
+
                     </fieldset>
                     <fieldset class="catalog-filter-group">
                         <legend class="catalog-filter-title">Тип Жилья</legend>
