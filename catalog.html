@@ -37,57 +37,59 @@
       </header>
 
         <main class="main-inner">
-            <header class="inner-header">
-                <h1 class="inner-header-title">Гостиницы Седоны</h1>
-                <ul class="breadcrumbs">
-                    <li class="breadcrumbs-item">
-                        <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
-                    </li>
-                    <li class="breadcrumbs-item">
-                        <a class="breadcrumbs-link">Гостиницы</a>
-                    </li>
-                </ul>
-            </header>
-            <section class="catalog-hotels">
-                <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-                <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-                    <fieldset class="catalog-filter-group">
-                        <legend class="catalog-filter-title">Инфраструктура</legend>
-                        <ul class="catalog-filter-list">
-                            <li class="catalog-filter-item">
-                                <label class="control">
+          <h1 class="visually-hidden">Каталог</h1>
+          <section class="filter">
+            <h2 class="filter-title">Гостиницы Седоны</h2>
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
+                </li>
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link">Гостиницы</a>
+                </li>
+            </ul>
+
+            <form class="filter-catalog" action="https://echo.htmlacademy.ru/" method="get">
+              <fieldset class="filter-catalog-group">
+                  <legend class="filter-catalog-title">Инфраструктура</legend>
+                      <ul class="filter-catalog-list">
+                          <li class="filter-catalog-item">
+                              <label class="control">
                                 <input checked class="control-input" type="checkbox" name="pool">Бассейн</label>
-                            </li>
-                            <li class="catalog-filter-item">
-                                <label class="control">
+                          </li>
+                          <li class="filter-catalog-item">
+                              <label class="control">
                                 <input checked class="control-input" type="checkbox" name="parking">Парковка</label>
-                            </li>
-                            <li class="catalog-filter-item">
-                                <label class="control">
+                          </li>
+                          <li class="filter-catalog-item">
+                              <label class="control">
                                 <input class="control-input" type="checkbox" name="wifi">Wi-Fi</label>
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="catalog-filter-group">
-                        <legend class="catalog-filter-title">Тип Жилья</legend>
-                        <ul class="catalog-filter-list">
-                            <li class="catalog-filter-item">
-                                <label class="control">
+                          </li>
+                      </ul>
+              </fieldset>
+
+              <fieldset class="filter-catalog-group">
+                  <legend class="filter-catalog-title">Тип Жилья</legend>
+                      <ul class="filter-catalog-list">
+                          <li class="filter-catalog-item">
+                              <label class="control">
                                 <input checked class="control-input" type="radio" name="hotel-group" value="hotel">Гостиница</label>
-                            </li>
-                            <li class="catalog-filter-item">
-                                <label class="control">
+                          </li>
+                          <li class="filter-catalog-item">
+                              <label class="control">
                                 <input class="control-input" type="radio" name="hotel-group" value="motel">Мотель</label>
-                            </li>
-                            <li class="catalog-filter-item">
-                                <label class="control">
+                          </li>
+                          <li class="filter-catalog-item">
+                              <label class="control">
                                 <input class="control-input" type="radio" name="hotel-group" value="apartment">Апартаменты</label>
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <button class="button" type="submit">ПРИМЕНИТЬ</button>
-                    <button class="button" type="reset">Сбросить</button>
-                </form>
+                          </li>
+                      </ul>
+              </fieldset>
+              <button class="button" type="submit">ПРИМЕНИТЬ</button>
+              <button class="button" type="reset">Сбросить</button>
+            </form>
+          </section>
+
                 <p>НАЙДЕНО ГОСТИНИЦ: 38</p>
             <select class="select-control" aria-label="Сортировка">
                 <option value="cheap">Сначала дешёвые</option>
@@ -195,7 +197,7 @@
             <a class="button" href="https://t.me/htmlacademy"><span class="visually-hidden">Телеграм</span></a>
             <a class="button" href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">YouTube</span></a>
             <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-            <a class="htmlacademy-link" href="https://htmlacademy.ru/"></a><span class="visually-hidden">.html academy</span></p>
+            <a class="htmlacademy-link" href="https://htmlacademy.ru/"></a><span class="visually-hidden">.html academy</span></a>
     </footer>
     </body>
 </html>
