@@ -117,3 +117,55 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+
+.advantages-item {
+  background-color: #82B3D3;
+}
+
+.filter {
+  color: #ffffff;
+  background-color: #4825e1;
+  background-image: url(../images/catalog-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.filter-title {
+  font-family: "PT Sans" sans-serif;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs-link {
+  font-family: "PT Sans" sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.filter-catalog-title {
+  font-family: "PT Sans" sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.filter-catalog-list {
+  font-family: "PT Sans" sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.button {
+  font-family: "PT Sans" sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.button-lower {
+  text-transform: lowercase;
+}
