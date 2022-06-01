@@ -45,7 +45,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.main-promo {
+.main-index {
   text-align: center;
 }
 
@@ -57,5 +57,36 @@ body {
   text-transform: uppercase;
 }
 
+.advantages-title {
+  font-family: "PT Sans" sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
+.advantages-title-white {
+  color:#ffffff;
+}
 
+.advantages-description {
+  font-family: "PT Sans" sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.advantages-number {
+  font-family: "PT Sans" sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.advantages-description-white {
+  color: #ffffff;
+}
+
+.advantages-number-white {
+  color: #ffffff;
+}
