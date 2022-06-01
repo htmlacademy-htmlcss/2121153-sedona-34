@@ -37,12 +37,21 @@ body {
   text-transform:none;
 }
 
-.main-index {
+.main-logo {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #4825e1;
   background-image: url(../images/index-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
+.main-promo {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  text-transform: uppercase;
+}
 
