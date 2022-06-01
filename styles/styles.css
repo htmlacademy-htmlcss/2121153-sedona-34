@@ -46,12 +46,16 @@ body {
 }
 
 .main-promo {
-  color: #000000;
-  background-color: #ffffff;
   text-align: center;
 }
 
 .section-title {
+  font-family: "PT Sans" sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
 }
+
+
 
