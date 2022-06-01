@@ -90,3 +90,30 @@ body {
 .advantages-number-white {
   color: #ffffff;
 }
+
+.footer-subscribe {
+  text-align: center;
+}
+
+.footer-subscribe-button {
+  text-transform: uppercase;
+}
+
+.footer-contacts-phone {
+  font-family: "PT Sans" sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: inherit;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform:none;
+}
+
+.footer-subscribe {
+  color: #ffffff;
+  background-color: #4825e1;
+  background-image: url(../images/subscribe-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
