@@ -115,10 +115,16 @@ img {
   color: #ffffff;
 }
 
-.field ::placeholder {
+.button-second ::placeholder {
   font-family: inherit;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.field ::placeholder {
   font-weight: 400;
   color: #000000;
 }
@@ -169,13 +175,7 @@ img {
   text-transform: none;
 }
 
-
-
-
-
 .filter {
-  color: #ffffff;
-  background-color: #4825e1;
   background-image: url(../images/catalog-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -185,30 +185,78 @@ img {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .breadcrumbs-link {
-  font-size: 16px;
-  line-height: 21px;
   font-weight: 400;
+  color: #ffffff;
 }
 
 .filter-catalog-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .filter-catalog-list {
-  font-size: 18px;
-  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.button-fourth {
+font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+}
+
+.button-five {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: none;
+}
+
+.catalog {
+  background-color: #ffffff;
+}
+
+.catalog-result {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.catalog-card-link {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.catalog-card-type {
   font-weight: 400;
 }
 
-.button {
+.catalog-card-price {
+  font-weight: 400;
+}
+
+.button-six {
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
+  color: #ffffff;
+  background-color: #756157;
   text-transform: uppercase;
 }
 
@@ -219,61 +267,30 @@ img {
   text-transform: uppercase;
 }
 
-.button-lower {
-  text-transform: lowercase;
+.pagination-current {
+  background-color: #F2F2F2;
 }
 
-.result {
-  font-size: 30px;
+.pagination-link {
+  font-size: 20px;
   line-height: 36px;
   font-weight: 700;
-  text-transform: uppercase;
-}
-
-
-
-::placeholder
-
-.select-control {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-}
-
-.catalog-amount-number {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-}
-
-.catalog-card-type {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-}
-
-.catalog-card-price {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-}
-
-.catalog-card-title {
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
-  color: #000000;
-  background-color: #ffffff;
-  text-decoration: none;
-  text-transform: none;
-}
-
-.button-blue {
+  color: #ffffff;
   background-color: #82B3D3;
 }
 
-.button-brown {
-  background-color: #756157;
+.pagination-current {
+  background-color: #F2F2F2;
 }
 
+.catalog-amount-number {
+  font-weight: 400;
+}
 
+.catalog-amount {
+  font-weight: 400;
+}
+
+.catalog-select-control {
+  font-weight: 400;
+}
