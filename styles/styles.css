@@ -124,11 +124,6 @@ img {
   text-transform: uppercase;
 }
 
-.field ::placeholder {
-  font-weight: 400;
-  color: #000000;
-}
-
 .button-second {
   font-weight: 700;
   font-size: 20px;
@@ -153,6 +148,7 @@ img {
 }
 
 .field ::placeholder {
+  font-size: 400;
   color: #000000;
 }
 
