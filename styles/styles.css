@@ -16,19 +16,37 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 22px;
-  line-height: 26px;
-  color: #000000;
-  background-color: #ffffff;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .main-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
   color:#000000;
   background-color: #ffffff;
 }
 
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+
+
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: inherit;
@@ -50,15 +68,20 @@ body {
 }
 
 .section-title {
-  font-family: "PT Sans" sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  color: #000000;
   text-transform: uppercase;
 }
 
+.section-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
 .advantages-title {
-  font-family: "PT Sans" sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -70,14 +93,12 @@ body {
 }
 
 .advantages-description {
-  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
 .advantages-number {
-  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -100,7 +121,6 @@ body {
 }
 
 .footer-contacts-phone {
-  font-family: "PT Sans" sans-serif;
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
@@ -135,35 +155,30 @@ background-color: rgba(131, 179, 211, 0.12);
 }
 
 .filter-title {
-  font-family: "PT Sans" sans-serif;
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
 }
 
 .breadcrumbs-link {
-  font-family: "PT Sans" sans-serif;
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
 }
 
 .filter-catalog-title {
-  font-family: "PT Sans" sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
 }
 
 .filter-catalog-list {
-  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
 .button {
-  font-family: "PT Sans" sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -171,7 +186,6 @@ background-color: rgba(131, 179, 211, 0.12);
 }
 
 .catalog-card-rating {
-  font-family: "PT Sans" sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -183,50 +197,46 @@ background-color: rgba(131, 179, 211, 0.12);
 }
 
 .result {
-  font-family: "PT Sans" sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-::placeholder {
-  font-family: "PT Sans" sans-serif;
+.field ::placeholder {
+  font-family: inherit;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
+::placeholder
+
 .select-control {
-  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
 .catalog-amount-number {
-  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
 .catalog-card-type {
-  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
 .catalog-card-price {
-  font-family: "PT Sans" sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
 .catalog-card-title {
-  font-family: "PT Sans" sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
