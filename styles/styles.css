@@ -161,6 +161,10 @@ img {
   text-transform: uppercase;
 }
 
+.main-footer {
+  background-color: #ffffff;
+}
+
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
