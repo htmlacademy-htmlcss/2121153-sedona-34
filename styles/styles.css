@@ -115,7 +115,7 @@ img {
   color: #ffffff;
 }
 
-.button-second ::placeholder {
+.button-second::placeholder {
   font-family: inherit;
   font-size: 20px;
   line-height: 36px;
@@ -147,7 +147,7 @@ img {
   color: #ffffff;
 }
 
-.field ::placeholder {
+.field::placeholder {
   font-size: 400;
   color: #000000;
 }
