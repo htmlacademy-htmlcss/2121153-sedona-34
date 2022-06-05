@@ -134,6 +134,10 @@ img {
 
 .footer-subscribe {
   text-align: center;
+  background-color: #ffffff;
+}
+
+.footer-subscribe-second {
   background-image: url(../images/subscribe-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -150,6 +154,7 @@ img {
 .field::placeholder {
   font-size: 400;
   color: #000000;
+  background-color: #F2F2F2;
 }
 
 .button-third {
