@@ -50,11 +50,40 @@ img {
 }
 
 .main-header {
+  display: flex;
+  width: 1260px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   color:#000000;
   background-color: #ffffff;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 139px;
+}
+
+.navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 891px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+.navigation-user {
+  margin: 0;
+  padding: 0;
+  max-width: 370px;
+  margin-left: auto;
 }
 
 .navigation-link {
