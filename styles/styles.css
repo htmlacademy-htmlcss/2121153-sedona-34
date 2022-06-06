@@ -125,6 +125,18 @@ img {
   line-height: 26px;
 }
 
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-item-small {
+  display: flex;
+  justify-content: space-between;
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -133,8 +145,17 @@ img {
   color: #000000;
 }
 
+.advanteges-item-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-img {
+  display: block;
+}
+
 .advantages-backgrond {
-  background-color: #82B3D3;;
+  background-color: #82B3D3;
 }
 
 .advantages-second {
