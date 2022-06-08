@@ -303,6 +303,15 @@ font-weight: 700;
   background-color: #ffffff;
 }
 
+.filter-catalog {
+  display: flex;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .catalog-result {
   font-size: 30px;
   line-height: 36px;
@@ -342,6 +351,11 @@ font-weight: 700;
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.pagination-all {
+  display: flex;
+  justify-content: space-between;
 }
 
 .pagination-current {
