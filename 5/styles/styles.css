@@ -1,0 +1,389 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.main-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-index {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.main-inner {
+  flex-grow: 1;
+}
+
+.main-header {
+  display: flex;
+  width: 1260px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color:#000000;
+  background-color: #ffffff;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 139px;
+}
+
+.navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 891px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+.navigation-user {
+  margin: 0;
+  padding: 0;
+  max-width: 370px;
+  margin-left: auto;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+}
+
+.main-logo {
+  background-image: url(../images/index-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.section-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-item-small {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advanteges-item-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-img {
+  display: block;
+}
+
+.advantages-backgrond {
+  background-color: #82B3D3;
+}
+
+.advantages-second {
+  color: #ffffff;
+}
+
+.advantages-backgrond-second {
+  background-color: #ffffff;
+}
+
+.advantages-third {
+  background-color: rgba(131, 179, 211, 0.12);;
+}
+
+.section-search {
+  background-color: #ffffff;
+}
+
+.section-title-second {
+  color: #ffffff;
+}
+
+.section-description-second {
+  color: #ffffff;
+}
+
+.button-second::placeholder {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.button-second {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+.footer-subscribe {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.footer-subscribe-second {
+  background-image: url(../images/subscribe-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.section-title-second {
+  color: #ffffff;
+}
+
+.section-description-second {
+  color: #ffffff;
+}
+
+.field::placeholder {
+  font-size: 400;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.button-third {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+}
+
+.main-footer {
+  background-color: #ffffff;
+}
+
+.footer-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: inherit;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.filter {
+  background-image: url(../images/catalog-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.filter-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.breadcrumbs-link {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.filter-catalog-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.filter-catalog-list {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.button-fourth {
+font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+}
+
+.button-five {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: none;
+}
+
+.catalog {
+  background-color: #ffffff;
+}
+
+.filter-catalog {
+  display: flex;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog-result {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.catalog-card-link {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.catalog-card-type {
+  font-weight: 400;
+}
+
+.catalog-card-price {
+  font-weight: 400;
+}
+
+.button-six {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+}
+
+.catalog-card-rating {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.pagination-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-current {
+  background-color: #F2F2F2;
+}
+
+.pagination-link {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.catalog-amount-number {
+  font-weight: 400;
+}
+
+.catalog-amount {
+  font-weight: 400;
+}
+
+.catalog-select-control {
+  font-weight: 400;
+}
