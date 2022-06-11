@@ -150,6 +150,7 @@ img {
 }
 
 .advantages-item {
+  width: calc(100% / 3);
 }
 
 .advanteges-item-image {
@@ -325,10 +326,6 @@ font-weight: 700;
   background-color: #ffffff;
 }
 
-.filter-catalog {
-  display: flex;
-}
-
 .catalog-list {
   display: flex;
   flex-wrap: wrap;
@@ -375,9 +372,8 @@ font-weight: 700;
   text-transform: uppercase;
 }
 
-.pagination-all {
+.pagination {
   display: flex;
-  justify-content: space-between;
 }
 
 .pagination-current {
