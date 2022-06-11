@@ -68,6 +68,12 @@ img {
   justify-content: space-between;
 }
 
+.filter-container {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
 .logo {
   margin: 0;
   padding: 0;
@@ -78,20 +84,21 @@ img {
   display: flex;
   margin: 0;
   padding: 0;
-  width: 891px;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 .navigation-list {
   margin: 0;
   padding: 0;
-  width: 500px;
 }
 
 .navigation-user {
   margin: 0;
   padding: 0;
-  max-width: 370px;
   margin-left: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation-link {
@@ -100,6 +107,12 @@ img {
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.navigation-user-link {
+  color: #000000;
   text-decoration: none;
   text-transform: none;
 }
@@ -291,6 +304,10 @@ img {
 .breadcrumbs-link {
   font-weight: 400;
   color: #ffffff;
+}
+
+.filter-catalog {
+  display: flex;
 }
 
 .filter-catalog-title {
