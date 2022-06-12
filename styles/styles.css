@@ -89,8 +89,11 @@ img {
 }
 
 .navigation-list {
+  display: flex;
   margin: 0;
   padding: 0;
+  margin-left: 0 auto;
+  justify-content: space-between;
 }
 
 .navigation-user {
@@ -166,7 +169,7 @@ img {
   width: calc(100% / 3);
 }
 
-.advanteges-item-image {
+.advantages-item-image {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -235,6 +238,14 @@ img {
   background-color: #756157;
 }
 
+.footer-social {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 0 auto;
+  justify-content: space-between;
+}
+
 .footer-subscribe {
   text-align: center;
   background-color: #ffffff;
@@ -301,6 +312,13 @@ img {
   color: #ffffff;
 }
 
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 0 auto;
+}
+
 .breadcrumbs-link {
   font-weight: 400;
   color: #ffffff;
@@ -322,8 +340,16 @@ img {
   color: #ffffff;
 }
 
+.filters {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 0 auto;
+  justify-content: space-between;
+}
+
 .button-fourth {
-font-weight: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -387,6 +413,10 @@ font-weight: 700;
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.pagination-all {
+  display: flex;
 }
 
 .pagination {
