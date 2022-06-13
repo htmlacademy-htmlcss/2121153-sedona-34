@@ -95,8 +95,8 @@ img {
   display: flex;
   margin: 0;
   padding: 0;
-  flex-grow: 1;
   justify-content: space-between;
+  flex-grow: 1;
 }
 
 .navigation-list {
@@ -105,6 +105,8 @@ img {
   padding: 0;
   margin-left: 0 auto;
   justify-content: space-between;
+  list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .navigation-user {
@@ -113,6 +115,7 @@ img {
   margin-left: auto;
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
 }
 
 .navigation-link {
@@ -123,6 +126,8 @@ img {
   background-color: #ffffff;
   text-decoration: none;
   text-transform: none;
+  display: block;
+  margin: 20px 34px 20px 17px;
 }
 
 .navigation-user-link {
