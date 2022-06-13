@@ -134,6 +134,9 @@ img {
   color: #000000;
   text-decoration: none;
   text-transform: none;
+  display: block;
+  min-width: 42px;
+  min-height: 66px;
 }
 
 .button {
