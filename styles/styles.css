@@ -59,10 +59,6 @@ img {
   flex-grow: 1;
 }
 
-.main-inner {
-  flex-grow: 1;
-}
-
 .main-header {
   font-weight: 700;
   font-size: 20px;
@@ -116,6 +112,7 @@ img {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  align-items: center;
 }
 
 .navigation-link {
@@ -133,11 +130,9 @@ img {
 .navigation-user-link {
   color: #ffffff;
   text-decoration: none;
-  text-transform: none;
   display: block;
   min-width: 42px;
   min-height: 66px;
-  margin: 14px 0 0;
   text-transform: uppercase;
 }
 
@@ -159,18 +154,30 @@ img {
   background-repeat: no-repeat;
 }
 
+.main-promo-logo {
+  margin-top: 51px;
+  margin-bottom: 25px;
+}
+
+.section-promo {
+  min-height: 282px;
+}
+
 .section-title {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  margin-top: 63px;
+  margin-bottom: 31px;
 }
 
 .section-description {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  margin-bottom: 90px;
 }
 
 .advantages-list {
@@ -191,6 +198,7 @@ img {
 
 .advantages-item {
   width: calc(100% / 3);
+  align-items: center;
 }
 
 .advantages-item-image {
@@ -235,6 +243,7 @@ img {
 
 .section-search {
   background-color: #ffffff;
+  min-height: 417px;
 }
 
 .section-title-second {
@@ -260,28 +269,43 @@ img {
   line-height: 36px;
   color: #ffffff;
   background-color: #756157;
-}
-
-.footer-social {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  margin-left: 0 auto;
-  justify-content: space-between;
+  width: 574px;
 }
 
 .footer-subscribe {
   text-align: center;
   background-color: #ffffff;
+  min-height: 411px;
 }
 
-.footer-subscribe-second {
+.footer-subscribe-decor {
   background-image: url(../images/subscribe-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.section-title-second {
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-left: 0 auto;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer-social-link {
+  width: 24px;
+  height: 17px;
+  margin-right: 26px;
+  margin-bottom: 26px;
+}
+
+.footer-social-link:nth-child(3n) {
+  margin-right: 0;
+}
+
+.section-title-decor {
   color: #ffffff;
 }
 
@@ -321,6 +345,8 @@ img {
   background-color: #ffffff;
   text-decoration: none;
   text-transform: none;
+  margin-top: 45px;
+  margin-bottom: 35px;
 }
 
 .filter {
