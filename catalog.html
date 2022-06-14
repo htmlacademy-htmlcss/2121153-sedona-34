@@ -11,7 +11,7 @@
     <div class="main-container">
       <header class="main-header">
         <div class="inner-container">
-          <a class="main-header-logo" href="index.html" src="images/logo.svg" alt="Логотип Седоны." width="139"
+          <a class="logo" href="index.html" src="images/logo.svg" alt="Логотип Седоны." width="139"
             height="70">
             <img class="main-header-logo" src="images/logo.svg" alt="Логотип Седоны." width="139" height="70">
           </a>
@@ -35,7 +35,7 @@
                 <a class="navigation-user-link" href="#"><span class="visually-hidden">Избранное</span></a>
               </li>
               <li class="navigation-item">
-                <div class="button"><a class="button navigation-user-link" href="#">Хочу сюда!</a></div>
+                <div class="button"><a class="navigation-user-link" href="#">Хочу сюда!</a></div>
               </li>
             </ul>
           </nav>
@@ -91,8 +91,10 @@
                   </li>
                 </ul>
               </fieldset>
+              <div class="filter-catalog-button">
               <button class="button-fourth" type="submit">Применить</button>
               <button class="button-five" type="reset">Сбросить</button>
+              </div>
             </form>
           </div>
         </section>
@@ -106,10 +108,10 @@
                 <option value="popular">Сначала популярные</option>
                 <option value="expensive">Сначала дорогие</option>
               </select>
-              <ul>
-                <li><a href="#" class="button"><span class="visually-hidden">Показать карточки</span></a></li>
-                <li><a href="#" class="button"><span class="visually-hidden">Показать слайд-шоу</span></a></li>
-                <li><a href="#" class="button"><span class="visually-hidden">Показать список</span></a></li>
+              <ul class="filters-view">
+                <li class="filters-button"><a href="#" class="button"><span class="visually-hidden">Показать карточки</span></a></li>
+                <li class="filters-button"><a href="#" class="button"><span class="visually-hidden">Показать слайд-шоу</span></a></li>
+                <li class="filters-button"><a href="#" class="button"><span class="visually-hidden">Показать список</span></a></li>
               </ul>
             </div>
           </div>
@@ -121,8 +123,10 @@
                   height="211">
               </a>
               <h3 class="catalog-card-title"><a class="catalog-card-link" href="#">Amara Resort & Spa</a></h3>
+              <div>
               <span class="catalog-card-type">Гостиница</span>
               <span class="catalog-card-price">От 4000 р.</span>
+              </div>
               <a class="button-six" href="#">Подробнее</a>
               <button class="button-fourth">В избранное</button>
               <div class="catalog-card-stars-four"><span class="visually-hidden">Четыре звезды</span></div>
@@ -134,8 +138,10 @@
                   height="211">
               </a>
               <h3 class="catalog-card-title"><a class="catalog-card-link" href="#">Villas at Poco Diablo</a></h3>
+              <div>
               <span class="catalog-card-type">Гостиница</span>
               <span class="catalog-card-price">От 5000 р.</span>
+              </div>
               <a class="button-six" href="#">Подробнее</a>
               <button class="button-fourth">В избранное</button>
               <div class="catalog-card-stars-four"><span class="visually-hidden">Четыре звезды</span></div>
@@ -147,8 +153,10 @@
                   height="211">
               </a>
               <h3 class="catalog-card-title"><a class="catalog-card-link" href="#">Desert Quail Inn</a></h3>
+              <div>
               <span class="catalog-card-type">Гостиница</span>
               <span class="catalog-card-price">От 2500 р.</span>
+              </div>
               <a class="button-six" href="#">Подробнее</a>
               <button class="button-fourth">В избранное</button>
               <div class="catalog-card-stars-four"><span class="visually-hidden">Четыре звезды</span></div>
@@ -160,8 +168,10 @@
                   height="211">
               </a>
               <h3 class="catalog-card-title"><a class="catalog-card-link" href="#">GreenTree Inn</a></h3>
+              <div>
               <span class="catalog-card-type">Гостиница</span>
               <span class="catalog-card-price">От 1500 р.</span>
+              </div>
               <a class="button-six" href="#">Подробнее</a>
               <button class="button-fourth">В избранное</button>
               <div class="catalog-card-stars-four"><span class="visually-hidden">Четыре звезды</span></div>
@@ -170,7 +180,6 @@
           </ul>
 
           <div class="pagination-all">
-            <div>
               <ul class="pagination">
                 <li class="pagination-item">
                   <a class="pagination-link pagination-current">1</a>
@@ -191,18 +200,17 @@
                   <a class="pagination-link" href="#">10</a>
                 </li>
               </ul>
-            </div>
 
-            <div>
+              <div class="pagination-amount">
               <p class="catalog-amount-number">Гостиниц на странице:</p>
               <label class="catalog-amount">
-                <select>
+                <select class="select-amount">
                   <option value="four">4</option>
                   <option value="eight">8</option>
                   <option value="twenty">20</option>
                 </select>
               </label>
-            </div>
+              </div>
           </div>
         </section>
       </main>

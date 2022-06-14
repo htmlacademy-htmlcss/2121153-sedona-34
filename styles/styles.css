@@ -67,6 +67,11 @@ img {
   background-color: #ffffff;
 }
 
+.main-inner {
+  margin: 0;
+  padding: 0;
+}
+
 .inner-container {
   display: flex;
   width: 100%;
@@ -146,6 +151,8 @@ img {
   border-radius: 4px;
   width: 160px;
   height: 37px;
+  padding: 9px 15px 8px 15px;
+  box-sizing: border-box;
 }
 
 .main-logo {
@@ -353,6 +360,9 @@ img {
   background-image: url(../images/catalog-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  min-height: 393px;
 }
 
 .filter-title {
@@ -360,22 +370,30 @@ img {
   line-height: 78px;
   font-weight: 700;
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .breadcrumbs {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-left: 0 auto;
+  margin-bottom: 40px;
+  list-style-type: none;
 }
 
 .breadcrumbs-link {
   font-weight: 400;
   color: #ffffff;
+  margin-right: 25px;
 }
 
 .filter-catalog {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .filter-catalog-title {
@@ -390,12 +408,30 @@ img {
   color: #ffffff;
 }
 
+.filter-catalog-button {
+  display: flex;
+  flex-direction: column;
+}
+
 .filters {
   display: flex;
   margin: 0;
   padding: 0;
   margin-left: 0 auto;
   justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 57px;
+  width: 100%;
+}
+
+.filters-view {
+  display: flex;
+  list-style-type: none;
+}
+
+.filters-button {
+  width: 48px;
+  height: 48px;
 }
 
 .button-fourth {
@@ -417,11 +453,22 @@ img {
 
 .catalog {
   background-color: #ffffff;
+  width: 100%;
+  max-width: 1056px;
+  margin: 0 auto;
 }
+
+
 
 .catalog-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 66px;
 }
 
 .catalog-result {
@@ -430,6 +477,14 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
+}
+
+.catalog-card {
+  margin-right: 18px;
+}
+
+.catalog-card:nth-child(3n) {
+  margin-right: 0;
 }
 
 .catalog-card-link {
@@ -467,17 +522,40 @@ img {
 
 .pagination-all {
   display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .pagination {
   display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
 }
 
-.pagination-current {
-  background-color: #F2F2F2;
+.pagination-item {
+  list-style-type: none;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination-amount {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
 }
 
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  padding: 9px 22px 10px 21px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -493,6 +571,7 @@ img {
 
 .catalog-amount-number {
   font-weight: 400;
+  margin-right: 51px;
 }
 
 .catalog-amount {
