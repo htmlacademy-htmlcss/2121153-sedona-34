@@ -129,7 +129,7 @@ img {
   text-decoration: none;
   text-transform: none;
   display: block;
-  margin: 20px 34px 20px 17px;
+  padding: 20px 34px 20px 17px;
 }
 
 .navigation-user-link {
@@ -145,9 +145,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
   background-color: #756157;
-  text-transform: uppercase;
   border-radius: 4px;
   width: 160px;
   height: 37px;
@@ -282,7 +280,6 @@ img {
 .footer-subscribe {
   text-align: center;
   background-color: #ffffff;
-  min-height: 411px;
 }
 
 .footer-subscribe-decor {
@@ -314,6 +311,8 @@ img {
 
 .section-title-decor {
   color: #ffffff;
+  padding-top: 94px;
+  margin-top: 0;
 }
 
 .section-description-second {
