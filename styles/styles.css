@@ -63,7 +63,7 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  color:#000000;
+  color: #000000;
   background-color: #ffffff;
 }
 
@@ -243,7 +243,8 @@ img {
 }
 
 .advantages-third {
-  background-color: rgba(131, 179, 211, 0.12);;
+  background-color: rgba(131, 179, 211, 0.12);
+  ;
 }
 
 .section-search {
