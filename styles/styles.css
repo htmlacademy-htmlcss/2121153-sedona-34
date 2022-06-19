@@ -457,17 +457,36 @@ img {
   margin: 0 auto;
 }
 
-
-
 .catalog-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100%;
-  margin-bottom: 66px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 78px;
+  margin-bottom: 96px;
+}
+
+.catalog-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 16px;
+}
+
+.catalog-card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.catalog-card-title {
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-card-image {
+  margin-bottom: 0;
 }
 
 .catalog-result {
@@ -476,14 +495,6 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
-}
-
-.catalog-card {
-  margin-right: 18px;
-}
-
-.catalog-card:nth-child(3n) {
-  margin-right: 0;
 }
 
 .catalog-card-link {
