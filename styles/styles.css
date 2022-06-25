@@ -78,6 +78,7 @@ img {
   max-width: 1060px;
   margin: 0 auto;
   justify-content: space-between;
+  align-items: center;
 }
 
 .filter-container {
@@ -90,6 +91,8 @@ img {
   margin: 0;
   padding: 0;
   width: 139px;
+  margin-bottom: -15px;
+  z-index: 1;
 }
 
 .navigation {
@@ -130,6 +133,7 @@ img {
   text-transform: none;
   display: block;
   padding: 20px 34px 20px 17px;
+  cursor: pointer;
 }
 
 .navigation-user-link {
@@ -139,6 +143,19 @@ img {
   min-width: 42px;
   min-height: 66px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navigation-user .navigation-item:nth-child(1) .navigation-user-link {
+  background-image: url(../images/nav-search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-user .navigation-item:nth-child(2) .navigation-user-link {
+  background-image: url(../images/nav-favorite.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .button {
@@ -247,6 +264,12 @@ img {
   ;
 }
 
+.advantages-description {
+  display: block;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
 .section-search {
   background-color: #ffffff;
   min-height: 417px;
@@ -267,6 +290,7 @@ img {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+  padding: 12px 15px;
 }
 
 .button-second {
@@ -297,6 +321,7 @@ img {
   margin-left: 0 auto;
   justify-content: space-between;
   list-style-type: none;
+  align-items: center;
 }
 
 .footer-social-link {
@@ -320,19 +345,32 @@ img {
   color: #ffffff;
 }
 
+.field {
+  width: 600px;
+  height: 60px;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 94px;
+  border: none;
+}
+
 .field::placeholder {
+  padding: 20px 491px 19px 22px;
   font-size: 400;
   color: #000000;
   background-color: #F2F2F2;
 }
 
-.button-third {
+.button-subscribe {
+  padding: 12px 15px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
   background-color: #82B3D3;
   text-transform: uppercase;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  cursor: pointer;
 }
 
 .main-footer {
@@ -427,28 +465,56 @@ img {
 .filters-view {
   display: flex;
   list-style-type: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .filters-button {
+  box-sizing: border-box;
   width: 48px;
   height: 48px;
+  margin-right: 8px;
+  border-radius: 4px;
+  display: block;
+  border-color: #E5E5E5;
 }
 
-.button-fourth {
+.filters-button-current {
+  border-color: #000000;
+}
+
+.button-apply {
+  padding: 14px 15px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
   background-color: #82B3D3;
   text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
-.button-five {
+.button-reset {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  background-color: none;
+  cursor: pointer;
+}
+
+.button-favorite {
+  padding: 9px 15px 8px 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
 .catalog {
@@ -469,21 +535,19 @@ img {
 }
 
 .catalog-card {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  margin: 16px;
 }
 
 .catalog-card-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 16px;
 }
 
 .catalog-card-title {
   margin: 0;
   padding: 0;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .catalog-card-image {
@@ -515,13 +579,19 @@ img {
   font-weight: 400;
 }
 
-.button-six {
+.button-more {
+  padding: 9px 15px 8px 15px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
   background-color: #756157;
   text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
 }
 
 .catalog-card-rating {
@@ -529,6 +599,9 @@ img {
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
+  background-color: #f2f2f2;
+  padding: 9px 22px 8px 23px;
+  border-radius: 4px;
 }
 
 .pagination-all {
@@ -573,6 +646,7 @@ img {
   color: #ffffff;
   background-color: #82B3D3;
   text-decoration: none;
+  border-radius: 4px;
 }
 
 .pagination-current {
@@ -591,4 +665,5 @@ img {
 
 .catalog-select-control {
   font-weight: 400;
+  border-color: #E5E5E5;
 }
