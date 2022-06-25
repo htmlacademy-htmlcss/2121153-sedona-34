@@ -147,13 +147,13 @@ img {
 }
 
 .navigation-user .navigation-item:nth-child(1) .navigation-user-link {
-  background-image: url(../images/nav-search.svg);
+  background-image: url("../images/nav-search.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .navigation-user .navigation-item:nth-child(2) .navigation-user-link {
-  background-image: url(../images/nav-favorite.svg);
+  background-image: url("../images/nav-favorite.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -171,7 +171,7 @@ img {
 }
 
 .main-logo {
-  background-image: url(../images/index-background.jpg);
+  background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -270,14 +270,20 @@ img {
   margin-right: 85px;
 }
 
+.advantages-icon-house {
+  background-image: url("../images/advantages-icon-house.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .advantages-icon-food {
-  background-image: url(../images/advantages-icon-food.svg);
+  background-image: url("../images/advantages-icon-food.svg");
   background-repeat: no-repeat;
   position: relative;
 }
 
 .advantages-icon-souvenir {
-  background-image: url(../images/advantages-icon-souvenir.svg);
+  background-image: url("../images/advantages-icon-souvenir.svg");
   background-repeat: no-repeat;
   position: relative;
 }
@@ -320,7 +326,7 @@ img {
 }
 
 .footer-subscribe-decor {
-  background-image: url(../images/subscribe-background.jpg);
+  background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -407,7 +413,7 @@ img {
 }
 
 .filter {
-  background-image: url(../images/catalog-background.jpg);
+  background-image: url("../images/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin: 0;
@@ -550,9 +556,6 @@ img {
   margin-bottom: 96px;
 }
 
-.catalog-card {
-}
-
 .catalog-card-content {
   display: grid;
   grid-template-columns: repeat(2, 140px);
@@ -596,7 +599,7 @@ img {
 }
 
 .catalog-card-stars {
-  background-image: url(../images/catalog-star.svg);
+  background-image: url("../images/catalog-star.svg");
   background-size: 18px 17px;
   background-repeat: no-repeat;
 }
