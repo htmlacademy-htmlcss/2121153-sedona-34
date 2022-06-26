@@ -184,6 +184,19 @@ img {
   box-sizing: border-box;
 }
 
+.button:focus {
+  background-color: #615048;
+}
+
+.button:hover {
+  background-color: #615048;
+}
+
+.button:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .main-logo {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
