@@ -158,6 +158,16 @@ img {
   background-position: center;
 }
 
+.navigation-link-current::before {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+  height: 2px;
+  content: "";
+  background-color: #756257;
+}
+
 .button {
   font-weight: 700;
   font-size: 16px;
@@ -279,7 +289,6 @@ img {
 .advantages-icon-food {
   background-image: url("../images/advantages-icon-food.svg");
   background-repeat: no-repeat;
-  position: relative;
 }
 
 .advantages-icon-souvenir {
@@ -351,6 +360,22 @@ img {
 
 .footer-social-link:nth-child(3n) {
   margin-right: 0;
+}
+
+.footer-social-icon {
+  fill: #83B3D3;
+}
+
+.footer-social-icon:hover {
+  fill: #68A2CA;
+}
+
+.footer-social-icon:focus {
+  fill: #68A2CA;
+}
+
+.footer-social-icon:disabled {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .section-title-decor {
@@ -494,7 +519,7 @@ img {
   margin-right: 8px;
   border-radius: 4px;
   display: block;
-  border-color: #E5E5E5;
+  border: 5px solid #E5E5E5;
 }
 
 .filters-button-current {
