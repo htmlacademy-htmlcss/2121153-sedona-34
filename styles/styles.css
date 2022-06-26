@@ -306,6 +306,7 @@ img {
 .advantages-icon-food {
   background-image: url("../images/advantages-icon-food.svg");
   background-repeat: no-repeat;
+  background-position: 50% 10%;
 }
 
 .advantages-icon-souvenir {
