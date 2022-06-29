@@ -584,18 +584,20 @@ img {
   margin-right: 25px;
 }
 
-.breadcrumbs-item::after {
+.breadcrumbs-item:not(:last-child)::after {
   background-image: url("../images/breadcrumbs-item.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 6px;
   height: 8px;
   content: "";
+  position: absolute;
 }
 
 .breadcrumbs-link {
   font-weight: 400;
   color: #ffffff;
+  position: relative;
 }
 
 .breadcrumbs-link:focus {
@@ -836,8 +838,9 @@ img {
 
 .catalog-card-star {
   background-image: url("../images/catalog-star.svg");
-  background-size: 18px 17px;
   background-repeat: no-repeat;
+  width: 18px;
+  height: 17px;
 }
 
 .button-more {
