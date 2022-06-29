@@ -150,6 +150,21 @@ img {
   min-height: 37px;
   text-transform: uppercase;
   cursor: pointer;
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  background-color: #7DB54F;
+  border-radius: 100%;
+  right: 0;
+  top: 5px;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navigation-user-item {
@@ -572,6 +587,7 @@ img {
 .breadcrumbs-item::after {
   background-image: url("../images/breadcrumbs-item.svg");
   background-repeat: no-repeat;
+  background-position: center;
   width: 6px;
   height: 8px;
   content: "";
@@ -903,11 +919,9 @@ img {
 }
 
 .pagination-link {
-  display: block;
   box-sizing: border-box;
   width: 55px;
   height: 55px;
-  padding: 9px 22px 10px 21px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -915,6 +929,10 @@ img {
   background-color: #82B3D3;
   text-decoration: none;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }
 
 .pagination-link:focus {
