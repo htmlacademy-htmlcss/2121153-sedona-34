@@ -12,7 +12,7 @@
     <div class="main-container">
       <header class="main-header">
         <div class="inner-container">
-          <a class="logo" href="index.html" src="images/logo.svg" alt="Логотип Седоны." width="139" height="70">
+          <a class="logo">
             <img class="main-header-logo" src="images/logo.svg" alt="Логотип Седоны." width="139" height="70">
           </a>
           <nav class="navigation">
@@ -28,14 +28,17 @@
               </li>
             </ul>
             <ul class="navigation-user">
-              <li class="navigation-item">
+              <li class="navigation-user-item">
                 <a class="navigation-user-link" href="#"><span class="visually-hidden">Поиск</span></a>
               </li>
-              <li class="navigation-item">
-                <a class="navigation-user-link" href="#"><span class="visually-hidden">Избранное</span></a>
+              <li class="navigation-user-item">
+                <a class="navigation-user-link" href="#">
+                  <span class="visually-hidden">Избранное</span>
+                <span class="counter">12</span>
+                </a>
               </li>
-              <li class="navigation-item">
-                <div class="button"><a class="navigation-user-link" href="#">Хочу сюда!</a></div>
+              <li class="navigation-user-item">
+                <a class="navigation-user-link button" href="#">Хочу сюда!</a>
               </li>
             </ul>
           </nav>
@@ -57,13 +60,6 @@
                   </svg>
                   <span class="visually-hidden">Главная</span></a>
               </li>
-              <svg aria-hidden="true" focusable="false" width="6" height="9" viewBox="0 0 6 9" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M5.05145 4.0749L1.25145 0.674902C1.05145 0.474902 0.651448 0.474902 0.351448 0.674902C0.0514485 0.874902 0.151448 1.2749 0.351448 1.4749L3.65145 4.4749L0.451448 7.4749C0.251448 7.6749 0.251448 8.0749 0.451448 8.2749C0.451448 8.3749 0.751448 8.4749 0.851448 8.4749C0.951449 8.4749 1.15145 8.3749 1.25145 8.2749L5.05145 4.8749C5.35145 4.6749 5.35145 4.2749 5.05145 4.0749Z"
-                  fill="white" />
-              </svg>
-
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link">Гостиницы</a>
               </li>
@@ -160,7 +156,10 @@
                 <span class="catalog-card-price">От 4000 р.</span>
                 <a class="button-more" href="#">Подробнее</a>
                 <button class="button-favorite">В избранное</button>
-                <div class="catalog-card-stars"><span class="visually-hidden">Четыре звезды</span></div>
+                <div class="catalog-card-stars">
+                  <span class="catalog-card-star">
+                    <span class="visually-hidden">Четыре звезды</span></div>
+                  </span>
                 <span class="catalog-card-rating">Рейтинг: 8,5</span>
               </div>
             </li>
@@ -175,7 +174,13 @@
                 <span class="catalog-card-price">От 5000 р.</span>
                 <a class="button-more" href="#">Подробнее</a>
                 <button class="button-favorite button-favorite-select">В избранном</button>
-                <div class="catalog-card-stars"><span class="visually-hidden">Четыре звезды</span></div>
+                <div class="catalog-card-stars">
+                  <span class="catalog-card-star">4</span>
+                  <span class="catalog-card-star">4</span>
+                  <span class="catalog-card-star">4</span>
+                  <span class="catalog-card-star">4</span>
+                  <span class="visually-hidden">Четыре звезды</span>
+                </div>
                 <span class="catalog-card-rating">Рейтинг: 8,5</span>
               </div>
             </li>
@@ -250,10 +255,8 @@
       <footer class="main-footer">
         <section class="footer-subscribe">
           <h2 class="section-title">Подпишитесь на рассылку</h2>
-          <form class="footer-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="section-description"><label for="subscribe-id">Только полезная информация и никакого спама,
-                честное бойскаутское!
-              </label></p>
+            <p class="section-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <form class="footer-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <input class="field" id="subscribe-id" type="email" placeholder="Ваш e-mail" name="user-email" required>
             <button class="button-subscribe" type="submit">Подписаться</button>
           </form>
