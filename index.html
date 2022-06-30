@@ -126,8 +126,10 @@
         <section class="section-search">
           <h2 class="section-title">Заинтересовались?</h2>
             <p class="section-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <form action="https://echo.htmlacademy.ru/" method="post"></form>
-            <input class="button-second" id="search-id" type="search" placeholder="Поиск гостиницы в Седоне" name="search-hotel">
+            <form action="https://echo.htmlacademy.ru/" method="post">
+              <label for="search-id"></label>
+            <input class="button-search" id="search-id" type="search" placeholder="Поиск гостиницы в Седоне" name="search-hotel">
+            </form>
         </section>
       </main>
 
@@ -135,7 +137,8 @@
         <section class="footer-subscribe footer-subscribe-decor">
           <h2 class="section-title section-title-decor">Подпишитесь на рассылку</h2>
             <p class="section-description section-description-second">Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <form class="footer-subscribe-form" action="https://echo.htmlacademy.ru/" method="post"></form>
+            <form class="footer-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label for="subscribe-id"></label>
             <input class="field" id="subscribe-id" type="email" placeholder="Ваш e-mail" name="user-email" required>
             <button class="button-subscribe" type="submit">Подписаться</button>
           </form>
