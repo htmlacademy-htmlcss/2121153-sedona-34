@@ -706,11 +706,6 @@ breadcrumbs-icon:active {
   color: #ffffff;
 }
 
-.filter-catalog-button {
-  display: flex;
-  flex-direction: column;
-}
-
 .control-input {
   font: inherit;
 }
