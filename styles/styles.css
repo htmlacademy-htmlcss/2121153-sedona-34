@@ -1270,13 +1270,46 @@ breadcrumbs-icon:active {
   background-color: #F2F2F2;
 }
 
+.catalog-amount {
+  width: 160px;
+}
+
 .catalog-amount-number {
+  font: inherit;
   font-weight: 400;
   margin-right: 51px;
 }
 
-.catalog-amount {
+.select-amount {
+  font: inherit;
   font-weight: 400;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 100%;
+  height: 49px;
+  padding-left: 20px;
+  padding-right: 50px;
+  background-image: url("../images/tick-select.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  appearance: none;
+}
+
+.select-amount:hover,
+.select-amount:focus {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.select-amount:active {
+  border: 2px solid #3F5E72;
+  border-radius: 4px;
+}
+
+.select-amount:disabled {
+  color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
 }
 
 .catalog-select-control-type {
