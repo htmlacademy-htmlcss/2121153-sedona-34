@@ -65,19 +65,25 @@
 
             <form class="filter-catalog" action="https://echo.htmlacademy.ru/" method="get">
               <fieldset class="filter-catalog-group">
-                <legend class="filter-catalog-title">Инфраструктура</legend>
+                <legend class="filter-catalog-title">Инфраструктура:</legend>
                 <ul class="filter-catalog-list">
                   <li class="filter-catalog-item">
                     <label class="control">
-                      <input checked class="control-input" type="checkbox" name="pool">Бассейн</label>
+                      <input checked class="control-input visually-hidden" type="checkbox" name="pool"></label>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Бассейн</span>
                   </li>
                   <li class="filter-catalog-item">
                     <label class="control">
-                      <input checked class="control-input" type="checkbox" name="parking">Парковка</label>
+                      <input checked class="control-input visually-hidden" type="checkbox" name="parking"></label>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Парковка</span>
                   </li>
                   <li class="filter-catalog-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="wifi">Wi-Fi</label>
+                      <input class="control-input visually-hidden" type="checkbox" name="wifi"></label>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Wi-Fi</span>
                   </li>
                 </ul>
               </fieldset>
@@ -87,16 +93,19 @@
                 <ul class="filter-catalog-list">
                   <li class="filter-catalog-item">
                     <label class="control">
-                      <input checked class="control-input" type="radio" name="hotel-group"
+                      <input checked class="control-input visually-hidden" type="radio" name="hotel-group"
                         value="hotel">Гостиница</label>
+                        <span class="control-mark-radio"></span>
                   </li>
                   <li class="filter-catalog-item">
                     <label class="control">
-                      <input class="control-input" type="radio" name="hotel-group" value="motel">Мотель</label>
+                      <input class="control-input visually-hidden" type="radio" name="hotel-group" value="motel">Мотель</label>
+                      <span class="control-mark-radio"></span>
                   </li>
                   <li class="filter-catalog-item">
                     <label class="control">
-                      <input class="control-input" type="radio" name="hotel-group" value="apartment">Апартаменты</label>
+                      <input class="control-input visually-hidden" type="radio" name="hotel-group" value="apartment">Апартаменты</label>
+                      <span class="control-mark-radio"></span>
                   </li>
                 </ul>
               </fieldset>

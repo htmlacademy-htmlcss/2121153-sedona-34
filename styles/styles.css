@@ -704,6 +704,13 @@ breadcrumbs-icon:active {
 .filter-catalog-list {
   font-weight: 400;
   color: #ffffff;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-top: 30px;
+}
+
+.filter-catalog-group {
+  border: none;
 }
 
 .filter-catalog-range {
@@ -712,7 +719,8 @@ breadcrumbs-icon:active {
 
 .range {
   display: flex;
-}
+  align-items: center;
+justify-content: center;}
 
 .range-scale {
   position: relative;
@@ -835,12 +843,34 @@ top: 14px;
 .filter-catalog-button {
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  align-items: center
+  align-items: center;
+  margin-top: 44px;
 }
 
 .control-input {
   font: inherit;
+}
+
+.control {
+  position: relative;
+  display: block;
+}
+
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+
+.control-label {
+  padding-left: 40px;
+  font-weight: 400;
+}
+
+.filter-catalog-item {
+  margin-bottom: 16px;
 }
 
 .filters {
@@ -933,6 +963,22 @@ top: 14px;
   background-color: transparent;
   padding: 0;
   font-family: inherit;
+}
+
+.button-reset:hover {
+
+}
+
+.button-reset:active {
+  color: rgba(255, 255, 255, 0.6)
+}
+
+.button-reset:focus {
+  box-sizing: border-box;
+  width: 100px;
+  height: 32px;
+  border: 3px solid #83B3D3;
+  border-radius: 4px;
 }
 
 .button-favorite {
