@@ -723,7 +723,8 @@ breadcrumbs-icon:active {
 .range {
   display: flex;
   align-items: center;
-justify-content: center;}
+  justify-content: center;
+}
 
 .range-scale {
   position: relative;
