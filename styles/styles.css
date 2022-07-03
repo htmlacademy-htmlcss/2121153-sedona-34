@@ -899,6 +899,21 @@ top: 14px;
   font-weight: 400;
 }
 
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 50%;
+  content: "";
+}
+
 .filter-catalog-item:not(:last-child) {
   margin-bottom: 16px;
 }
@@ -1281,4 +1296,21 @@ top: 14px;
   background-repeat: no-repeat;
   background-position: right 16px center;
   appearance: none;
+}
+
+.catalog-select-control:hover,
+.catalog-select-control:focus {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.catalog-select-control:active {
+  border: 2px solid #3F5E72;
+  border-radius: 4px;
+}
+
+.catalog-select-control:disabled {
+  color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
 }
