@@ -205,7 +205,6 @@
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="modal-search-form" action="https://echo.htmlacademy.ru/" method="post">
-            <div class="modal-form">
             <p class="field-group">
               <label class="modal-label" for="checkin-id">Дата заезда:</label>
               <input class="modal-field" type="text" id="checkin-id" name="checkin-date" placeholder="27 апреля 2020">
@@ -214,9 +213,7 @@
               </button>
               <p class="comment comment-decor">Мы не можем отправить вас в прошлое.</p>
             </p>
-            </div>
 
-            <div class="modal-form">
             <p class="field-group">
               <label class="modal-label" for="departure-id">Дата выезда:</label>
               <input class="modal-field" type="text" id="departure-id" name="departure-date" placeholder="27 апреля 2020">
@@ -225,9 +222,8 @@
               </button>
               <p class="comment">На эти даты есть свободные номера. Пока есть.</p>
             </p>
-            </div>
 
-            <div class="modal-form">
+            <p class="field-group">
               <label class="modal-label" for="adult-id">Взрослые:</label>
               <button class="button-less">
                 <span class="visually-hidden">Меньше</span>
@@ -236,11 +232,11 @@
               <button class="button-more">
                 <span class="visually-hidden">Больше</span>
               </button>
-            </div>
+            </p>
 
-            <div class="modal-form">
+            <p class="field-group">
               <label class="modal-label" for="child-id">Дети:</label>
-              <span class="tooltip">Информация</span>
+              <span class="visually-hidden">Информация</span>
               <button class="button-less">
                 <span class="visually-hidden">Меньше</span>
               </button>
@@ -248,8 +244,9 @@
               <button class="button-more">
                 <span class="visually-hidden">Больше</span>
               </button>
-            </div>
-            <button class="button-find">Найти</button>
+            </p>
+
+            <button class="button-find" type="submit">Найти</button>
           </form>
         </section>
       </div>
