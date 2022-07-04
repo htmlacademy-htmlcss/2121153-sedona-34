@@ -196,6 +196,64 @@
         </section>
       </footer>
     </div>
-  </body>
 
+    <div class="modal-container">
+      <div class="modal modal-search">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <form class="modal-search-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="modal-form">
+            <p class="field-group">
+              <label class="modal-label" for="checkin-id">Дата заезда:</label>
+              <input class="modal-field" type="text" id="checkin-id" name="checkin-date" placeholder="27 апреля 2020">
+              <button class="date-button" type="button">
+                <span class="visually-hidden">Календарь</span>
+              </button>
+              <p class="comment comment-decor">Мы не можем отправить вас в прошлое.</p>
+            </p>
+            </div>
+
+            <div class="modal-form">
+            <p class="field-group">
+              <label class="modal-label" for="departure-id">Дата выезда:</label>
+              <input class="modal-field" type="text" id="departure-id" name="departure-date" placeholder="27 апреля 2020">
+              <button class="date-button" type="button">
+                <span class="visually-hidden">Календарь</span>
+              </button>
+              <p class="comment">На эти даты есть свободные номера. Пока есть.</p>
+            </p>
+            </div>
+
+            <div class="modal-form">
+              <label class="modal-label" for="adult-id">Взрослые:</label>
+              <button class="button-less">
+                <span class="visually-hidden">Меньше</span>
+              </button>
+              <input class="modal-field" id="adult-id" type="number" value="2">
+              <button class="button-more">
+                <span class="visually-hidden">Больше</span>
+              </button>
+            </div>
+
+            <div class="modal-form">
+              <label class="modal-label" for="child-id">Дети:</label>
+              <span class="tooltip">Информация</span>
+              <button class="button-less">
+                <span class="visually-hidden">Меньше</span>
+              </button>
+              <input class="modal-field" id="child-id" type="number" value="1">
+              <button class="button-more">
+                <span class="visually-hidden">Больше</span>
+              </button>
+            </div>
+            <button class="button-find">Найти</button>
+          </form>
+        </section>
+      </div>
+    </div>
+
+  </body>
 </html>
