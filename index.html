@@ -153,8 +153,10 @@
             бойскаутское!</p>
           <form class="footer-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <label for="subscribe-id"></label>
+            <div class="subscribe-field">
             <input class="field" id="subscribe-id" type="email" placeholder="Ваш e-mail" name="user-email" required>
             <button class="button-subscribe" type="submit">Подписаться</button>
+            </div>
           </form>
         </section>
 
@@ -197,7 +199,7 @@
       </footer>
     </div>
 
-    <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal modal-search">
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
@@ -228,7 +230,7 @@
               <button class="button-less">
                 <span class="visually-hidden">Меньше</span>
               </button>
-              <input class="modal-field" id="adult-id" type="number" value="2">
+              <input class="modal-field modal-field-amount" id="adult-id" type="number" value="2">
               <button class="button-more">
                 <span class="visually-hidden">Больше</span>
               </button>
@@ -240,7 +242,7 @@
               <button class="button-less">
                 <span class="visually-hidden">Меньше</span>
               </button>
-              <input class="modal-field" id="child-id" type="number" value="1">
+              <input class="modal-field modal-field-amount" id="child-id" type="number" value="1">
               <button class="button-more">
                 <span class="visually-hidden">Больше</span>
               </button>
