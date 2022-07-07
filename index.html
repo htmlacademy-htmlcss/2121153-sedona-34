@@ -199,7 +199,7 @@
       </footer>
     </div>
 
-    <div class="modal-container modal-container-close">
+    <div class="modal-container">
       <div class="modal modal-search">
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
@@ -227,6 +227,7 @@
 
             <p class="field-group">
               <label class="modal-label" for="adult-id">Взрослые:</label>
+              <div class="modal-item">
               <button class="button-less">
                 <span class="visually-hidden">Меньше</span>
               </button>
@@ -234,10 +235,19 @@
               <button class="button-more">
                 <span class="visually-hidden">Больше</span>
               </button>
+              </div>
             </p>
 
             <p class="field-group">
+              <span class="modal-label">
               <label class="modal-label" for="child-id">Дети:</label>
+              <span class="tooltip">
+                <button class="tooltip-toggle" type="button">
+                  <svg class="tooltip-icon" width="1" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)" fill="#fff"><path d="M0 9h1V3H0v6Zm1-9H0v1h1V0Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h1v9H0z"/></clipPath></defs></svg>
+                </button>
+                <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </span>
+              </span>
               <span class="visually-hidden">Информация</span>
               <button class="button-less">
                 <span class="visually-hidden">Меньше</span>
