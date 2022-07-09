@@ -515,7 +515,7 @@ img {
   width: 600px;
   height: 60px;
   border-radius: 10px 0 0 10px;
-  border: none;
+  border: 3px solid #E6E6E6;
   font: inherit;
   box-sizing: border-box;
 }
@@ -647,7 +647,7 @@ img {
 }
 
 .breadcrumbs-item {
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 .breadcrumbs-item:not(:last-child)::after {
@@ -657,14 +657,16 @@ img {
   width: 6px;
   height: 8px;
   content: "";
-  position: absolute;
-  margin: 7px 10px 7px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 
 .breadcrumbs-link {
   font-weight: 400;
   color: #ffffff;
   position: relative;
+  text-decoration: none;
 }
 
 .breadcrumbs-link:focus {
@@ -687,11 +689,11 @@ img {
   fill: #ffffff;
 }
 
-breadcrumbs-icon:hover {
+.breadcrumbs-icon:hover {
   fill: rgba(255, 255, 255, 0.6);
 }
 
-breadcrumbs-icon:active {
+.breadcrumbs-icon:active {
   fill: rgba(255, 255, 255, 0.3);
 }
 
