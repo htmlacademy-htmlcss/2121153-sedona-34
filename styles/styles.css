@@ -408,7 +408,6 @@ img {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
-  padding: 12px 15px;
 }
 
 .button-search {
@@ -505,12 +504,12 @@ img {
 
 .field {
   width: 600px;
-  height: 60px;
   border-radius: 10px 0 0 10px;
   border: 3px solid #E6E6E6;
   font: inherit;
   box-sizing: border-box;
-  padding: 20px 22px 19px;
+  background-color: #F2F2F2;
+  padding: 13px 20px 14px;
 }
 
 .field:focus {
@@ -525,7 +524,6 @@ img {
 .field:active {
   background-color: #FFFFFF;
   border: 2px solid #000000;
-  border-radius: 4px;
 }
 
 .field:disabled {
@@ -534,10 +532,8 @@ img {
 }
 
 .field::placeholder {
-  padding: 20px 491px 19px 22px;
-  font-size: 400;
+  font-weight: 400;
   color: rgba(0, 0, 0, 0.6);
-  background-color: #F2F2F2;
 }
 
 .subscribe-field {
@@ -792,7 +788,7 @@ img {
 .range-input {
   width: 144px;
   height: 48px;
-  padding: 14px 50px 13px 15px;
+  padding: 14px 50px 13px 17px;
   font: inherit;
   background-color: transparent;
   box-sizing: border-box;
@@ -838,21 +834,23 @@ img {
 }
 
 .catalog-filter-label {
+  font-family: inherit;
   font-weight: 400;
-  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
   color: rgba(255, 255, 255, 0.3);
 }
 
 .catalog-filter-label-right {
   position: absolute;
-  left: 250px;
-  top: 14px;
+  left: 253px;
+  top: 11px;
 }
 
 .catalog-filter-label-left {
   position: absolute;
-  left: 100px;
-  top: 14px;
+  left: 115px;
+  top: 11px;
 }
 
 .filter-catalog-button {
@@ -877,6 +875,7 @@ img {
   width: 20px;
   height: 20px;
   background: #FFFFFF;
+  border-radius: 4px;
 }
 
 .control:hover .control-mark {
