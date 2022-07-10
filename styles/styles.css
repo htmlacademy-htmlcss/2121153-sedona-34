@@ -264,7 +264,7 @@ img {
 
 .section-promo {
   padding-top: 63px;
-  padding-bottom: 90px;
+  padding-bottom: 18px;
 }
 
 .section-title {
@@ -281,10 +281,13 @@ img {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin-bottom: 46px;
-  max-width: 476px;
+  margin-bottom: 71px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section-description-subscribe {
+  max-width: 476px;
 }
 
 .advantages-list {
@@ -301,8 +304,12 @@ img {
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 34px;
+  margin-bottom: 15px;
+}
+
+.advantages-number {
+  margin-bottom: 17px;
 }
 
 .advantages-item {
@@ -328,6 +335,7 @@ img {
 .advantages-backgrond {
   background-color: #82B3D3;
   width: calc(100% / 3);
+  padding: 10px;
 }
 
 .advantages-content {
@@ -338,6 +346,7 @@ img {
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
+  margin-top: -3px;
 }
 
 .advantages-second {
@@ -356,8 +365,8 @@ img {
 .advantages-description {
   display: block;
   max-width: 230px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .advantages-icon-house::before {
@@ -367,6 +376,7 @@ img {
   width: 75px;
   height: 72px;
   content: "";
+  margin-top: 15px;
 }
 
 .advantages-icon-food::before {
@@ -389,8 +399,8 @@ img {
 
 .section-search {
   background-color: #ffffff;
-  padding-top: 91px;
-  padding-bottom: 93px;
+  padding-top: 95px;
+  padding-bottom: 81px;
 }
 
 .section-title-second {
@@ -1634,6 +1644,8 @@ img {
 .comment {
   position: absolute;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
   display: block;
   left: 0;
   right: 0;
