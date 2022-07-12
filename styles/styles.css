@@ -188,7 +188,7 @@ img {
   fill: #615048;
 }
 
-.navigation-user .navigation-user-item:nth-child(2) .navigation-user-link {
+.navigation-user-item:nth-child(2) .navigation-user-link {
   background-image: url("../images/nav-favorite.svg");
   background-repeat: no-repeat;
   background-position: center;
