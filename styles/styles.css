@@ -26,6 +26,7 @@ body {
   color: #333333;
   background-color: #f2f2f2;
   margin: 0;
+  min-width: 1280px;
 }
 
 img {
@@ -239,6 +240,7 @@ img {
 }
 
 .main-logo {
+  background-color: #82B3D3;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -346,7 +348,6 @@ img {
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
-  margin-top: -3px;
 }
 
 .advantages-second {
@@ -411,21 +412,16 @@ img {
   color: #ffffff;
 }
 
-.button-search::placeholder {
-  font-family: inherit;
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 700;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
 .button-search {
   color: #ffffff;
   background-color: #756157;
   width: 574px;
   height: 60px;
-  font: inherit;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
   padding: 12px 15px;
   border-radius: 4px;
   border: none;
@@ -469,6 +465,7 @@ img {
 }
 
 .footer-subscribe-decor {
+  background-color: rgba(131, 179, 211, 0.12);
   background-image: url("../images/subscribe-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -515,11 +512,11 @@ img {
 .field {
   width: 600px;
   border-radius: 10px 0 0 10px;
-  border: 3px solid #E6E6E6;
   font: inherit;
   box-sizing: border-box;
   background-color: #F2F2F2;
   padding: 13px 20px 14px;
+  border: 3px solid #F2F2F2;
 }
 
 .field:focus {
@@ -533,7 +530,7 @@ img {
 
 .field:active {
   background-color: #FFFFFF;
-  border: 2px solid #000000;
+  border: 3px solid #000000;
 }
 
 .field:disabled {
@@ -618,8 +615,9 @@ img {
 }
 
 .filter {
+  background-color: rgba(131, 179, 211, 0.12);
   background-image: url("../images/catalog-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
@@ -1032,7 +1030,8 @@ img {
   background-color: transparent;
   padding: 0;
   font-family: inherit;
-  height: 32px;
+  min-height: 32px;
+  min-width: 100%;
 }
 
 .button-reset:hover {
@@ -1421,9 +1420,6 @@ img {
   width: 53px;
   height: 53px;
   border: none;
-  background-image: url("../images/button-close.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
   background-color: #F2F2F2;
   border-radius: 50%;
@@ -1528,7 +1524,6 @@ img {
   background: #F2F2F2;
   border-radius: 4px;
   box-sizing: border-box;
-  border: none;
   width: 420px;
   height: 50px;
   padding: 15px 53px 14px 19px;
@@ -1536,6 +1531,7 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  border: 3px solid #F2F2F2;
 }
 
 .modal-field:hover,
@@ -1551,7 +1547,7 @@ img {
 .modal-field:active,
 .field-counter-field:active {
   background: #FFFFFF;
-  border: 2px solid #000000;
+  border: 3px solid #000000;
   color: #000000;
 }
 
@@ -1685,6 +1681,7 @@ img {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  border: 3px solid #83B3D3;
 }
 
 .button-find:hover {

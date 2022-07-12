@@ -138,11 +138,11 @@
 
                   <div class="range-elements">
                     <div class="range-wrapper-inputs">
-                      <label for range-input-id-right class="catalog-filter-label catalog-filter-label-left"> от
+                      <label for="range-input-id-left" class="catalog-filter-label catalog-filter-label-left"> от
                       </label>
                       <input class="range-input range-input-left" id="range-input-id-right" type="number"
                         name="min-price" value="0">
-                      <label for range-input-id-left class="catalog-filter-label catalog-filter-label-right"> до
+                      <label for="range-input-id-right" class="catalog-filter-label catalog-filter-label-right"> до
                       </label>
                       <input class="range-input range-input-right" id="range-input-id-left" type="number"
                         name="max-price" value="9000">
@@ -338,6 +338,7 @@
           <p class="section-description section-description-subscribe">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="footer-subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="subscribe-field">
+              <label for="subscribe-id"></label>
               <input class="field" id="subscribe-id" type="email" placeholder="Ваш e-mail" name="user-email" required>
               <button class="button-subscribe" type="submit">Подписаться</button>
             </div>
@@ -346,8 +347,8 @@
 
         <section class="footer-contacts">
           <div class="inner-container">
+            <h2 class="visually-hidden">Контакты</h2>
             <ul class="footer-social">
-              <h2 class="visually-hidden">Контакты</h2>
               <li class="footer-social-item"><a class="footer-social-link" href="https://vk.com/htmlacademy">
                   <svg class="footer-social-icon" aria-hidden="true" focusable="false" width="24" height="15"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
