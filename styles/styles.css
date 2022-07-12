@@ -266,7 +266,7 @@ img {
 
 .section-promo {
   padding-top: 63px;
-  padding-bottom: 18px;
+  padding-bottom: 44px;
 }
 
 .section-title {
@@ -276,14 +276,14 @@ img {
   color: #000000;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .section-description {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  margin-bottom: 71px;
+  margin-bottom: 47px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -306,8 +306,6 @@ img {
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
-  margin-top: 34px;
-  margin-bottom: 15px;
 }
 
 .advantages-number {
@@ -348,6 +346,7 @@ img {
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
+  min-width: 400px;
 }
 
 .advantages-second {
@@ -360,14 +359,13 @@ img {
 
 .advantages-third {
   background-color: rgba(131, 179, 211, 0.12);
-  ;
+  margin-top: 4px;
 }
 
 .advantages-description {
   display: block;
   max-width: 230px;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin-top: 13px;
 }
 
 .advantages-icon-house::before {
@@ -377,7 +375,6 @@ img {
   width: 75px;
   height: 72px;
   content: "";
-  margin-top: 15px;
 }
 
 .advantages-icon-food::before {
@@ -448,7 +445,7 @@ img {
 .footer-subscribe {
   text-align: center;
   background-color: #ffffff;
-  padding-top: 94px;
+  padding-top: 93px;
   padding-bottom: 94px;
 }
 
@@ -1668,7 +1665,6 @@ img {
   width: 100%;
   min-height: 60px;
   padding: 12px 26px;
-  border: 0;
   background: #83B3D3;
   border-radius: 10px;
   font-weight: 700;
