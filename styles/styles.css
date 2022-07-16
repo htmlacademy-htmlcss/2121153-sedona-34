@@ -295,7 +295,7 @@ img {
 }
 
 .advantages-title {
-  margin-top: 73px;
+  margin-top: 0;
   margin-bottom: 0;
   font-weight: 700;
   font-size: 24px;
@@ -349,6 +349,7 @@ img {
   padding: 20px;
   box-sizing: border-box;
   min-width: 400px;
+  justify-content: center;
 }
 
 .advantages-second {
