@@ -909,7 +909,7 @@ img {
   border: 3px solid #83B3D3;
 }
 
-.control-input:[disabled="disabled"] + .control-mark {
+.control-input[disabled="disabled"] + .control-mark {
   background: #E5E5E5;
 }
 
