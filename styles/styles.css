@@ -31,7 +31,7 @@ body {
 
 img {
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .visually-hidden {
@@ -188,12 +188,6 @@ img {
   fill: #615048;
 }
 
-.navigation-user .navigation-user-item:nth-child(2) .navigation-user-link {
-  background-image: url("../images/nav-favorite.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .navigation-link-current::before {
   position: absolute;
   right: 0;
@@ -301,6 +295,8 @@ img {
 }
 
 .advantages-title {
+  margin-top: 73px;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -309,7 +305,8 @@ img {
 }
 
 .advantages-number {
-  margin-bottom: 17px;
+  margin-bottom: 0;
+  margin-top: 30px;
 }
 
 .advantages-item {
@@ -317,11 +314,16 @@ img {
   align-items: center;
 }
 
+.advantages-item::before {
+  margin-bottom: 30px;
+}
+
 .advantages-item-image {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
+  align-items: stretch;
 }
 
 .advantages-item-small {
@@ -330,6 +332,7 @@ img {
 
 .advantages-img {
   display: block;
+  height: auto;
 }
 
 .advantages-backgrond {
@@ -343,7 +346,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 20px;
   box-sizing: border-box;
   min-width: 400px;
@@ -359,13 +361,13 @@ img {
 
 .advantages-third {
   background-color: rgba(131, 179, 211, 0.12);
-  margin-top: 4px;
 }
 
 .advantages-description {
   display: block;
-  max-width: 230px;
-  margin-top: 13px;
+  max-width: 232px;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .advantages-icon-house::before {
@@ -397,8 +399,13 @@ img {
 
 .section-search {
   background-color: #ffffff;
-  padding-top: 95px;
-  padding-bottom: 81px;
+  padding-top: 90px;
+  padding-bottom: 93px;
+}
+
+.section-search-description {
+  margin-bottom: 55px;
+
 }
 
 .section-title-second {
@@ -461,10 +468,15 @@ img {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.button-subscribe[disabled="disabled"]{
+  background-color: #E5E5E5;
+}
+
+
 .footer-subscribe-decor {
   background-color: rgba(131, 179, 211, 0.12);
   background-image: url("../images/subscribe-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -896,8 +908,12 @@ img {
   border: 3px solid #83B3D3;
 }
 
-.control-input:disabled + .control-mark {
-  background: #756257;
+.control-input:[disabled="disabled"] + .control-mark {
+  background: #E5E5E5;
+}
+
+.control-input:focus-visible + .control-mark {
+  outline: 1px auto;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
